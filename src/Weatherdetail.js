@@ -8,7 +8,7 @@ export default function Weatherdetail() {
       let data=document.querySelector(".me-2").value;
       if(data.length===0)
       {
-        alert("Field should not be empty");
+        alert("Field should not be empty.");
         return;
       }
       setnewCity(data);
